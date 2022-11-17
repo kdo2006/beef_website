@@ -1,0 +1,83 @@
+body{
+    background-color: black;
+}
+.heart{
+    color: red;
+    font-size: 15rem;
+    text-align: center;
+    margin-top: 14rem;
+    text-shadow: 0 0 7px rgb(245, 17, 17)
+                ,0 0 14px rgb(201, 31, 31)
+                ,0 0 36px rgb(154, 39, 39)
+                ,0 0 46px rgb(207, 21, 21)
+                ,0 0 65px rgb(221, 15, 15)
+                ,0 0 75px rgb(225, 17, 17)
+                ,0 0 85px rgb(255, 0, 0);
+
+    animation: heart 0.5s linear infinite ;
+}
+.coder{
+    font-size: 5rem;
+    color: greenyellow;
+    text-shadow: 0 0 7px rgb(158, 245, 17)
+                ,0 0 14px rgb(31, 168, 24)
+                ,0 0 36px rgb(56, 154, 39)
+                ,0 0 46px rgb(21, 55, 207)
+                ,0 0 65px rgb(221, 15, 176)
+                ,0 0 75px rgb(225, 17, 97)
+                ,0 0 85px rgb(92, 5, 5);
+}
+.hack{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    color: greenyellow;
+    text-shadow: 0 0 7px rgb(17, 97, 245)
+                ,0 0 14px rgb(168, 137, 24)
+                ,0 0 36px rgb(39, 118, 154)
+                ,0 0 46px rgb(21, 55, 207)
+                ,0 0 65px rgb(221, 15, 15)
+                ,0 0 75px rgb(225, 208, 17)
+                ,0 0 85px rgb(5, 79, 92);
+}
+@keyframes heart {
+    0%{
+        font-size: 15.3rem;
+        text-shadow: 0 0 7px rgb(77, 16, 16)
+                ,0 0 14px rgb(201, 31, 31)
+                ,0 0 36px rgb(154, 39, 39)
+                ,0 0 46px rgb(207, 21, 21)
+                ,0 0 65px rgb(221, 15, 15)
+                ,0 0 75px rgb(225, 17, 17)
+                ,0 0 85px rgb(255, 0, 0);
+    }
+    
+}
+
+@media (max-width: 299px) { 
+    .coder{
+        font-size: 3rem;
+        color: greenyellow;
+        text-shadow: 0 0 7px rgb(158, 245, 17)
+                    ,0 0 14px rgb(31, 168, 24)
+                    ,0 0 36px rgb(56, 154, 39)
+                    ,0 0 46px rgb(21, 55, 207)
+                    ,0 0 65px rgb(221, 15, 176)
+                    ,0 0 75px rgb(225, 17, 97)
+                    ,0 0 85px rgb(92, 5, 5);
+    }
+    .hack{
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        color: greenyellow;
+        text-shadow: 0 0 7px rgb(17, 97, 245)
+                    ,0 0 14px rgb(168, 137, 24)
+                    ,0 0 36px rgb(39, 118, 154)
+                    ,0 0 46px rgb(21, 55, 207)
+                    ,0 0 65px rgb(221, 15, 15)
+                    ,0 0 75px rgb(225, 208, 17)
+                    ,0 0 85px rgb(5, 79, 92);
+    }
+    .heart{
+        margin-top: 10rem;
+    }
+ }
